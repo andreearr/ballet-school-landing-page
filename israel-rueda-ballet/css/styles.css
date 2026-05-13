@@ -793,13 +793,18 @@ p {
    Contact Page
    ======================================== */
 .contact-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: var(--space-xl);
+    display: flex;
+    justify-content: center;
+}
+
+.contact-info {
+    max-width: 600px;
+    width: 100%;
 }
 
 .contact-info h2 {
     margin-bottom: var(--space-md);
+    text-align: center;
 }
 
 .contact-info__item {
@@ -1272,7 +1277,7 @@ p {
     }
 
     .contact-grid {
-        grid-template-columns: 1fr;
+        padding: 0 var(--space-md);
     }
 
     .footer__grid {
