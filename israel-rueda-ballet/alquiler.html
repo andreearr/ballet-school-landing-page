@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Alquiler de salas de danza en Gràcia, Barcelona. Espacios profesionales para ballet, yoga, pilates, danza contemporánea y más.">
+    <title>Alquiler de Salas | Israel Rueda Ballet | Salas de Danza en Gràcia</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="imgs/Logo-para-Google-225x300.png">
+
+    <!-- Preload Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header header--dark">
+        <div class="header__container">
+            <a href="index.html" class="header__logo">
+                <img src="imgs/logo_trsp.png" alt="Israel Rueda Ballet Logo">
+                <span class="header__logo-text">Israel Rueda Ballet</span>
+            </a>
+
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li><a href="index.html" class="nav__link">Inicio</a></li>
+                    <li><a href="clases.html" class="nav__link">Clases</a></li>
+                    <li><a href="clases.html#horarios" class="nav__link">Horarios</a></li>
+                    <li><a href="clases.html#precios" class="nav__link">Tarifas</a></li>
+                    <li><a href="alquiler.html" class="nav__link nav__link--active">Alquiler de Salas</a></li>
+                    <li><a href="contacto.html" class="nav__link">Contacto</a></li>
+                </ul>
+
+                <button class="menu-toggle" aria-label="Abrir menú">
+                    <span class="menu-toggle__bar"></span>
+                    <span class="menu-toggle__bar"></span>
+                    <span class="menu-toggle__bar"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="imgs/alquiler1.jpeg" alt="Salas de danza" class="hero__bg" loading="eager">
+        <div class="hero__overlay"></div>
+        <div class="hero__content">
+            <p class="hero__location">Alquiler de salas</p>
+            <h1 class="hero__title">Alquiler de salas de Danza en Gràcia</h1>
+            <p class="hero__subtitle">Dos salas profesionales en el corazón de Gràcia, Barcelona.<br>Espacios elegantes, luminosos y totalmente equipados.</p>
+        </div>
+    </section>
+
+    <!-- Spaces Section -->
+    <section class="section">
+        <div class="container">
+            <div class="about__content">
+                <div class="about__text fade-in">
+                    <h2>Espacios para danza, movimiento y bienestar</h2>
+                    <p>Nuestras salas están diseñadas para ofrecer la mejor experiencia en clases, ensayos y eventos relacionados con la danza y el movimiento artístico.</p>
+                    <p>Ideales para profesionales de la danza, instructores de yoga, pilates, y cualquier persona que necesite un espacio profesional y bien equipado.</p>
+                </div>
+                <div class="about__image fade-in fade-in-delay-1">
+                    <img src="imgs/alquiler2.jpeg" alt="Interior de sala de baile">
+                </div>
+            </div>
+
+            <!-- Additional Photos -->
+            <div class="about__content" style="margin-top: var(--space-lg);">
+                <div class="about__image fade-in">
+                    <img src="imgs/alquiler1.jpeg" alt="Sala de danza 1" loading="lazy">
+                </div>
+                <div class="about__image fade-in fade-in-delay-1">
+                    <img src="imgs/alquiler4.jpeg" alt="Sala de danza 2" loading="lazy">
+                </div>
+            </div>
+            <div class="about__content" style="margin-top: var(--space-md);">
+                <div class="about__image fade-in">
+                    <img src="imgs/alquiler5.jpeg" alt="Sala de danza 3" loading="lazy">
+                </div>
+                <div class="about__image fade-in fade-in-delay-1">
+                    <img src="imgs/alquiler6.jpeg" alt="Sala de danza 4" loading="lazy">
+                </div>
+            </div>
+
+            <!-- Use Cases -->
+            <div class="section__header" style="margin-top: var(--space-xl);">
+                <p class="section__subtitle">Usos ideales</p>
+                <h2 class="section__title">¿Para qué puedes usar nuestras salas?</h2>
+            </div>
+
+            <div class="room-features fade-in">
+                <div class="room-feature">
+                    <div class="room-feature__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="8" r="4"/>
+                            <path d="M12 12v8M8 20h8"/>
+                        </svg>
+                    </div>
+                    <p class="room-feature__text">Ballet</p>
+                </div>
+                <div class="room-feature">
+                    <div class="room-feature__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2v20M2 12h20"/>
+                        </svg>
+                    </div>
+                    <p class="room-feature__text">Danza contemporánea</p>
+                </div>
+                <div class="room-feature">
+                    <div class="room-feature__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="3" width="18" height="18" rx="2"/>
+                            <circle cx="12" cy="12" r="3"/>
+                        </svg>
+                    </div>
+                    <p class="room-feature__text">Pilates</p>
+                </div>
+                <div class="room-feature">
+                    <div class="room-feature__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 12l10 10 10-10L12 2z"/>
+                        </svg>
+                    </div>
+                    <p class="room-feature__text">Yoga</p>
+                </div>
+                <div class="room-feature">
+                    <div class="room-feature__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M8 12s2 3 4 3 4-3 4-3"/>
+                        </svg>
+                    </div>
+                    <p class="room-feature__text">Belly Dance</p>
+                </div>
+                <div class="room-feature">
+                    <div class="room-feature__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2v10l4 4"/>
+                            <circle cx="12" cy="12" r="10"/>
+                        </svg>
+                    </div>
+                    <p class="room-feature__text">Tango</p>
+                </div>
+                <div class="room-feature">
+                    <div class="room-feature__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/>
+                        </svg>
+                    </div>
+                    <p class="room-feature__text">Contact Improvisation</p>
+                </div>
+                <div class="room-feature">
+                    <div class="room-feature__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                        </svg>
+                    </div>
+                    <p class="room-feature__text">Ensayos</p>
+                </div>
+                <div class="room-feature">
+                    <div class="room-feature__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="7" width="20" height="14" rx="2"/>
+                            <path d="M16 7V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v3"/>
+                        </svg>
+                    </div>
+                    <p class="room-feature__text">Workshops</p>
+                </div>
+                <div class="room-feature">
+                    <div class="room-feature__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14.5 10c-.83 0-1.5-.67-1.5-1.5v-5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5v5c0 .83-.67 1.5-1.5 1.5z"/>
+                            <path d="M20.5 10H19V8.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/>
+                            <path d="M9.5 14c.83 0 1.5.67 1.5 1.5v5c0 .83-.67 1.5-1.5 1.5S8 21.33 8 20.5v-5c0-.83.67-1.5 1.5-1.5z"/>
+                            <path d="M3.5 14H5v1.5c0 .83-.67 1.5-1.5 1.5S2 16.33 2 15.5 2.67 14 3.5 14z"/>
+                            <path d="M14 14.5c0-.83.67-1.5 1.5-1.5h5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5h-5c-.83 0-1.5-.67-1.5-1.5z"/>
+                            <path d="M15.5 19H14v1.5c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5z"/>
+                            <path d="M10 9.5C10 8.67 9.33 8 8.5 8h-5C2.67 8 2 8.67 2 9.5S2.67 11 3.5 11h5c.83 0 1.5-.67 1.5-1.5z"/>
+                            <path d="M8.5 5H10V3.5C10 2.67 9.33 2 8.5 2S7 2.67 7 3.5 7.67 5 8.5 5z"/>
+                        </svg>
+                    </div>
+                    <p class="room-feature__text">Castings</p>
+                </div>
+                <div class="room-feature">
+                    <div class="room-feature__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2v10z"/>
+                        </svg>
+                    </div>
+                    <p class="room-feature__text">Meetings creativos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="section section--dark" id="tarifas">
+        <div class="container">
+            <div class="section__header">
+                <p class="section__subtitle">Tarifas</p>
+                <h2 class="section__title">Tarifas de alquiler</h2>
+                <p class="section__description">Opciones flexibles para profesores y profesionales de la danza.</p>
+            </div>
+
+            <table class="pricing-table fade-in">
+                <thead>
+                    <tr>
+                        <th>Tipo de espacio</th>
+                        <th>Horario</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="3" style="font-weight: 600; background-color: rgba(212, 175, 55, 0.1);">Sala individual (60 m²)</td>
+                    </tr>
+                    <tr>
+                        <td>Mañanas / Mediodía</td>
+                        <td>8:00 - 17:00</td>
+                        <td>25€ / hora</td>
+                    </tr>
+                    <tr>
+                        <td>Tardes</td>
+                        <td>17:00 - 18:00</td>
+                        <td>30€ / hora</td>
+                    </tr>
+                    <tr>
+                        <td>Prime time</td>
+                        <td>18:00 - 22:00</td>
+                        <td>35€ / hora</td>
+                    </tr>
+                    <tr>
+                        <td>Sábados</td>
+                        <td>Todo el día</td>
+                        <td>40€ / hora</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" style="font-weight: 600; background-color: rgba(212, 175, 55, 0.1);">Dos salas completas</td>
+                    </tr>
+                    <tr>
+                        <td>Horario normal</td>
+                        <td>8:00 - 18:00</td>
+                        <td>55€ / hora</td>
+                    </tr>
+                    <tr>
+                        <td>Prime time</td>
+                        <td>18:00 - 22:00</td>
+                        <td>65€ / hora</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" style="font-weight: 600; background-color: rgba(212, 175, 55, 0.1);">Reserva fija mensual para profesores</td>
+                    </tr>
+                    <tr>
+                        <td>1 día semanal fijo</td>
+                        <td>1 clase semanal</td>
+                        <td>Desde 110€ / mes</td>
+                    </tr>
+                    <tr>
+                        <td>2 días semanales</td>
+                        <td>2 clases semanales</td>
+                        <td>Desde 210€ / mes</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" style="font-weight: 600; background-color: rgba(212, 175, 55, 0.1);">Suplementos opcionales</td>
+                    </tr>
+                    <tr>
+                        <td>Uso entrada / recepción</td>
+                        <td>Para castings o meetings</td>
+                        <td>+10€</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="section section--cream">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Incluido en todas las salas</h2>
+            </div>
+
+            <div class="features">
+                <div class="feature fade-in">
+                    <div class="feature__icon">
+                        <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="12" y="20" width="40" height="24" rx="4"/>
+                            <path d="M12 32h40"/>
+                        </svg>
+                    </div>
+                    <h4 class="feature__title">Barras profesionales</h4>
+                    <p class="feature__text">Barras fijas de madera de alta calidad para calentamiento y práctica.</p>
+                </div>
+
+                <div class="feature fade-in fade-in-delay-1">
+                    <div class="feature__icon">
+                        <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="32" cy="32" r="24"/>
+                            <path d="M32 16v16l8 8"/>
+                        </svg>
+                    </div>
+                    <h4 class="feature__title">Espejos de pared</h4>
+                    <p class="feature__text">Espejos de cuerpo completo para técnica y corrección postural.</p>
+                </div>
+
+                <div class="feature fade-in fade-in-delay-2">
+                    <div class="feature__icon">
+                        <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M32 8v48M16 16h32M16 48h32"/>
+                        </svg>
+                    </div>
+                    <h4 class="feature__title">Suelo de parquet</h4>
+                    <p class="feature__text">Suelo de madera profesional con la elasticidad adecuada para danza.</p>
+                </div>
+
+                <div class="feature fade-in fade-in-delay-3">
+                    <div class="feature__icon">
+                        <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="32" cy="20" r="8"/>
+                            <path d="M16 52c0-8.837 7.163-16 16-16s16 7.163 16 16"/>
+                        </svg>
+                    </div>
+                    <h4 class="feature__title">Aire acondicionado</h4>
+                    <p class="feature__text">Climatización perfecta para sesiones de trabajo intensas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section section--dark cta">
+        <div class="container">
+            <h2 class="fade-in">¿Interesado en alquilar nuestras salas?</h2>
+            <p class="fade-in fade-in-delay-1">Escríbenos por WhatsApp o contáctanos para más información sobre disponibilidad y condiciones.</p>
+            <div style="display: flex; gap: var(--space-md); justify-content: center; flex-wrap: wrap;">
+                <a href="https://wa.me/34633473565?text=Hola,%20me%20interesa%20alquilar%20una%20sala%20de%20baile" target="_blank" rel="noopener" class="btn btn--whatsapp fade-in fade-in-delay-2">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="margin-right: 8px;">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                    </svg>
+                    Escribir por WhatsApp
+                </a>
+                <a href="contacto.html" class="btn btn--secondary fade-in fade-in-delay-3">Contactar</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <a href="index.html" class="header__logo">
+                        <img src="imgs/logo_trsp.png" alt="Israel Rueda Ballet Logo" style="height: 50px;">
+                    </a>
+                    <p>Escuela de danza en el corazón de Gràcia, Barcelona. Formación artística, técnica y humana para todas las edades.</p>
+                    <div class="footer__social">
+                        <a href="https://www.instagram.com/israelruedaballet" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5"/>
+                                <circle cx="12" cy="12" r="4"/>
+                                <circle cx="18" cy="6" r="1"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.facebook.com/people/Israel-Rueda-Ballet-Barcelona/100063703594113/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__column">
+                    <h4>Navegación</h4>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="clases.html">Clases</a></li>
+                        <li><a href="clases.html#horarios">Horarios</a></li>
+                        <li><a href="clases.html#precios">Tarifas</a></li>
+                        <li><a href="alquiler.html">Alquiler de Salas</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__column">
+                    <h4>Clases</h4>
+                    <ul>
+                        <li><a href="clases.html#infantil">Ballet infantil</a></li>
+                        <li><a href="clases.html#adultos">Ballet jóvenes y adultos</a></li>
+                        <li><a href="clases.html#contemporanea">Danza contemporánea</a></li>
+                        <li><a href="clases.html#pilates">Pilates</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__column">
+                    <h4><a href="contacto.html">Contacto</a></h4>
+                    <ul>
+                        <li>Carrer del Torrent d'En Vidalet, 14</li>
+                        <li>Gràcia, Barcelona</li>
+                        <li><a href="tel:+34633473565">633 47 35 65</a></li>
+                        <li><a href="https://wa.me/34633473565" target="_blank" rel="noopener">WhatsApp</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p>© 2024 Israel Rueda Ballet. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/34633473565?text=Hola,%20me%20interesa%20alquilar%20una%20sala%20de%20baile" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Contactar por WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+    </a>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
