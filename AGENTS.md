@@ -5,6 +5,7 @@
 ```bash
 npm start                          # dev server (foreground) at http://localhost:3131
 nohup node serve.js > /tmp/balet-server.log 2>&1 &   # dev server in background
+npm run deploy                     # publish public/ to GitHub Pages via gh-pages branch
 ```
 
 ## Architecture
